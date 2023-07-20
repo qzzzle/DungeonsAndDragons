@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "d&d-oop"
+version = "0.1.0"
+description = "dungeons and dragons practical project in oop"
+authors = ["ghazale mirbagheri <ghazale.mirbagheri@gmail.com>"]
+readme = "README.md"
+packages = [{include = "d&d_oop"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
